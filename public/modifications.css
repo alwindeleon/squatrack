@@ -1,0 +1,78 @@
+.push-top-1 {
+  margin-top: 10em;
+}
+
+.push-top-2 {
+  margin-top: 4em;
+}
+
+.push-left-1 {
+  margin-left: 0.5em;
+}
+
+.push-left-2 {
+  margin-left: 2rem;
+}
+
+input {
+    max-width: 100%;
+} 
+.push-top-3 {
+  margin-top: 2.5em;
+}
+.push-top-4 {
+  margin-top: 1em;
+}
+
+.push-bot-1 {
+
+}
+
+.width-80 {
+  width: 50%
+}
+.box-small {
+  width: 5em;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-vert-center {
+  padding: 2.25em 0em;
+}
+
+.big-block {
+  height: 20em;
+  width: 15.8em;
+  border-radius: 10px;
+  border: 2px solid blue;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color .5s;
+}
+
+.big-block:hover {
+  color: white;
+  background-color: #4582ec;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.btn-absolute {
+  position: absolute;
+}
+
+#logout-pos {
+  left: 8rem;
+}
+
+.smaller {
+  font-size: 12px;
+}

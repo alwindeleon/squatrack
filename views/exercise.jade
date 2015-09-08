@@ -1,0 +1,80 @@
+doctype html
+html
+  head
+    link(href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css", rel="stylesheet" integrity="sha256-xZf1oKvAz2ou2qhEduvwW4dDmGlmHADVup7mEqdKU6k= sha512-go0HHuJkbEVqGsIW4i045yNp9n/jCC5Dywtr9MmZ41n6h+tBhCLod4AvtLxrFp489K2KppmGbufl0iKnhMwcOQ==" crossorigin="anonymous")
+    script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+    link(rel="stylesheet",href="modifications.css")
+  body
+    a(href="/")
+      div.logo.container.row-lg-1.push-top-4
+        div.col-lg-12.center-block
+          h1.text-center.text-black SquaTrack
+    div.panel.panel-info
+      div.panel-heading
+        h3.panel-title.text-center Deadlift
+      div.panel-body
+        div.container.row-lg-1
+          div.col-md-8
+            div.row-sm-12
+              div.container.col-md-12
+                div.row-md-1
+                  form.form-horizontal.form-group
+                    div.col-xs-2
+                      label(for="max-weight") Max Weight
+                      input#max-weight.box-small(type="text")
+                    div.col-xs-2
+                      label(for="total-sets") Total Sets
+                      input#total-sets.box-small(type="text")
+                    div.col-xs-2
+                      label(for="total-reps") Total Reps
+                      input#total-reps.box-small(type="text")
+                    div.col-xs-2
+                      label(for="total-weight") 
+                        small.smaller T Weight Lifted
+                      input#total-weight.box-small(type="text")
+                    div.col-xs-4
+                      button.btn.btn-default.push-top-4 Record!
+
+        div.container.row-lg-1
+          div.col-md-8
+            table.table.table-striped.table-hover
+              thead
+                tr
+                  th Date
+                    span.push-left-1.badge month/day/year
+                  th Max Weight
+                  th Total Sets
+                  th Total Reps
+                  th Total Weight Lifted
+              tbody
+                tr.info
+                  td 5/05/55
+                  td 900kg
+                  td 12
+                  td 96
+                  td 1500
+                tr.info
+                  td 5/05/55
+                  td 900kg
+                  td 12
+                  td 96
+                  td 1500
+                tr.info
+                  td 5/05/55
+                  td 900kg
+                  td 12
+                  td 96
+                  td 1500
+                tr.info
+                  td 5/05/55
+                  td 900kg
+                  td 12
+                  td 96
+                  td 1500
+          div.col-md-3.col-md-push-1
+            div.row-lg-1
+              div.col-lg-12.push-top-3
+                button.btn.btn-success.btn-block Weekly Graph
+            div.row-lg-1
+              div.col-lg-12.push-top-3
+                button.btn.btn-success.btn-block Monthly Graph

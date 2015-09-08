@@ -1,0 +1,24 @@
+doctype html
+html 
+  head
+    link(href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/readable/bootstrap.min.css", rel="stylesheet" integrity="sha256-xZf1oKvAz2ou2qhEduvwW4dDmGlmHADVup7mEqdKU6k= sha512-go0HHuJkbEVqGsIW4i045yNp9n/jCC5Dywtr9MmZ41n6h+tBhCLod4AvtLxrFp489K2KppmGbufl0iKnhMwcOQ==" crossorigin="anonymous")
+    script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+    link(rel="stylesheet",href="modifications.css")
+  body
+    a(href="/")
+      div.logo.container.row-lg-1.push-top-1
+        div.col-lg-12.center-block
+          h1.text-center.text-black SquaTrack
+    div.container.row-lg-1
+      div.col-md-4.col-md-offset-4#button-container
+        div.col-sm-4
+          a.btn.btn-info.btn-primary.btn-lg#about about
+        div.col-sm-4
+          a.btn.btn-success.btn-primary.btn-lg#login login
+        div.col-sm-4
+          a.btn.btn-danger.btn-primary.btn-lg#register register!
+    section.container.row-md-1
+      div.col-md-4.col-md-push-4.hidden
+        div.content
+      
+  script(src="index.js")
